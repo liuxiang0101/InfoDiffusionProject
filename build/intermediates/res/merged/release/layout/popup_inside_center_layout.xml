@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grgray"
+    android:orientation="vertical"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:weightSum="11">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="广角播放器"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+            本系统采用数化设计，使用与设置更灵活；
+             为能清晰表示巡查线路和巡查人员的上下级隶属关系，线路和人员均采用树型结构；
+             不同的巡更线路中可含有相同的地点，（一个和多个），解决了不同线路中地点交叉 问题；
+             对每条线路中的地点可以自由排序，并可对每个地点设置停留时间和特殊时间；
+             巡查计划按月份制定，并设置为具体的时间段，
+             为更好的适应巡查人员的情况，本系统采用两种方式：一种是每个人员加配感应卡 的识别方式，另一种是不配加人员卡的方式，而是在排定巡查计划同时，也将相应的人员进行相应的排定。
+             巡查结果查询可以进行多条件任意组合；
+             可按月份、时间和人员统计巡查结果；
+             为了使用系统数据更为安全，由系统管理员赋予操作员的管理权限；
+            本系统采用数化设计，使用与设置更灵活；
+             为能清晰表示巡查线路和巡查人员的上下级隶属关系，线路和人员均采用树型结构；
+             不同的巡更线路中可含有相同的地点，（一个和多个），解决了不同线路中地点交叉 问题；
+             对每条线路中的地点可以自由排序，并可对每个地点设置停留时间和特殊时间；
+             巡查计划按月份制定，并设置为具体的时间段，
+             为更好的适应巡查人员的情况，本系统采用两种方式：一种是每个人员加配感应卡 的识别方式，另一种是不配加人员卡的方式，而是在排定巡查计划同时，也将相应的人员进行相应的排定。
+             巡查结果查询可以进行多条件任意组合；
+             可按月份、时间和人员统计巡查结果；
+             为了使用系统数据更为安全，由系统管理员赋予操作员的管理权限；"
+            android:textColor="@color/white" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="确定"
+        android:textSize="15sp" />
+</LinearLayout>

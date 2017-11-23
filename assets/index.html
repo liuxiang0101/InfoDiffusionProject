@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FamilyAlbum</title>
+    
+</head>
+
+<body>
+<video  width="100%" id="videoTag"  height="100%" > 
+<source src="default.mp4" type="video/mp4" /> 
+</video> 
+</body>
+<script type="text/javascript">  
+    function startPlay()  
+    {  
+        var videos = document.getElementById('videoTag');  
+        videos.loop = 'loop'; 
+        videos.controls=false;
+        videos.addEventListener("seeking", function() {
+	     videos.play();  
+	   }); 
+        videos.play(); 
+    }  
+    startPlay();
+</script>  
+</html>

@@ -1,0 +1,7 @@
+#Sat May 27 14:41:57 CST 2017
+base.0=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3c2ed2db2a5f17e9dd75a7ba4c42c04970e86aa0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f3d458349d03a6831134a26bc28aa81099cc1840\\classes.dex
+base.1=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f3d458349d03a6831134a26bc28aa81099cc1840
+file.0=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3c2ed2db2a5f17e9dd75a7ba4c42c04970e86aa0\\classes.dex

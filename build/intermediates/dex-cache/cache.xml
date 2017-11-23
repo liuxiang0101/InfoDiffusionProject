@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\7dee8cd68f0b018e530e876754ed31e59ab6c759\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\classes_eee3f69a25d9abcad23268cc58f5f2c955c2000e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\jsoup-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="105282b5f0f6f9dffe468e18159af0eeb9e10f9f">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\jsoup-1.6.0_93cc8541dc7335385dc1bc201ac62df5054eb525.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\support-annotations-23.2.1_426ad47b0c180737bc1d40c89628bab5d90287f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\bab89293092d6ccc81428fb3fb0de7f9ab7603af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\classes_28812a46f1130cc9d4cbea4fee7b9fd7f385cfe6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\cordova-5.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0322b963bd97bf5291608bdaca20e8b32891d776">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\cordova-5.1.0_53128ba78d24ea59201ec939467970b2402f9404\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\zxing_e9d513c6bdf06dbbcdcfab044fea48134e0ad85c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\eventbus-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="352937af5b17299533e2434291411f51f3bac2ec">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\eventbus-1.0.1_7391eb533386709bcd9cc4d795385cefb37b3df0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\commons-collections-3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40fb048097caeacdb11dbb33b5755854d89efdeb">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\commons-collections-3.1_cd169a01f5338f114a1720b7e0c31babf9aa0278.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\jsoup-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="105282b5f0f6f9dffe468e18159af0eeb9e10f9f">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.6.0_93cc8541dc7335385dc1bc201ac62df5054eb525\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\cordova-5.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0322b963bd97bf5291608bdaca20e8b32891d776">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\cordova-5.1.0_53128ba78d24ea59201ec939467970b2402f9404.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\commons-collections-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40fb048097caeacdb11dbb33b5755854d89efdeb">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\commons-collections-3.1_cd169a01f5338f114a1720b7e0c31babf9aa0278\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4fd0d31e065f0bc15da3f9e80dd3379daa43bf28">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f3d458349d03a6831134a26bc28aa81099cc1840\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\netty4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="605ce02f9af15e2e913eaeda137ce902a2c3d689">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\netty4.1_d1779bb26c64bb8cdcdf09dd6e945609d3450559.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\eventbus-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="352937af5b17299533e2434291411f51f3bac2ec">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\eventbus-1.0.1_7391eb533386709bcd9cc4d795385cefb37b3df0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\zxing_e9d513c6bdf06dbbcdcfab044fea48134e0ad85c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\json-lib-2.4-jdk15_6e04efb8f54bb717e50b7d62922f132736cfde6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\android-logging-log4j-1.0.3_db569a00efbd2671845b10b8d8d5f634034a6b47.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_6e04efb8f54bb717e50b7d62922f132736cfde6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\android-logging-log4j-1.0.3_db569a00efbd2671845b10b8d8d5f634034a6b47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\microlog4android-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2612759eba0e1da035e939922440bb4ef83972df">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\microlog4android-1.1_81cbddcf512d5d3f20d550da93e9c4251e30ed94\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\microlog4android-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2612759eba0e1da035e939922440bb4ef83972df">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\microlog4android-1.1_81cbddcf512d5d3f20d550da93e9c4251e30ed94.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\afinal_0.5_bin.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\afinal_0.5_bin_dea77206cac58b1d6b78baf6425767e7bd8abb5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\afinal_0.5_bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\afinal_0.5_bin_dea77206cac58b1d6b78baf6425767e7bd8abb5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\c4ef8c31c77783808ac2e085f78dc1d90439d264\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\classes_015fdaf2b122b147931563e091efd672310b84d7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\log4j-1.2.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\log4j-1.2.17_6d2617bbd182a24e3c8bd9598b249f2266650a82\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\log4j-1.2.17_6d2617bbd182a24e3c8bd9598b249f2266650a82.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\gson-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2f5481ff752b0e69ecba7070f8b0a645e570cc22">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2_c41d836a6881db58b5f291b88f4b80a922c3758c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\bab89293092d6ccc81428fb3fb0de7f9ab7603af\output\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\internal_impl-23.2.1_d221d58fa2434c91424d64552c452530ead1c71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\68a0829998ec0c857e04305b9991c1f1c380dbed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\classes_674ad1f5148e4b5effb6c54ed5965af84225be32.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3c2ed2db2a5f17e9dd75a7ba4c42c04970e86aa0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\android-async-http-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.8_7c0c35c6e8c7ef182a3a96a700f0bf84a3aedd82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\quartz-all-1.6.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03feed90c793e1fb17f003964770f0e3b144c056">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\quartz-all-1.6.5_c2907db8e2b99718eee4361dec670a70e2637ce8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\quartz-all-1.6.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03feed90c793e1fb17f003964770f0e3b144c056">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\quartz-all-1.6.5_c2907db8e2b99718eee4361dec670a70e2637ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\commons-net-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="07993c12f63c78378f8c90de4bc2ee62daa7ca3a">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\commons-net-2.2_3c1e81b03c02c8c5670d6d950f895e7c5fa180d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\gson-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2f5481ff752b0e69ecba7070f8b0a645e570cc22">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\gson-2.2_c41d836a6881db58b5f291b88f4b80a922c3758c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\android-async-http-1.4.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\pre-dexed\release\android-async-http-1.4.8_7c0c35c6e8c7ef182a3a96a700f0bf84a3aedd82.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\commons-net-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="07993c12f63c78378f8c90de4bc2ee62daa7ca3a">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-2.2_3c1e81b03c02c8c5670d6d950f895e7c5fa180d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\App\99viewplayer\tag\tag0511\99view_mg\libs\netty4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="605ce02f9af15e2e913eaeda137ce902a2c3d689">
+        <dex dex="E:\App\99viewplayer\tag\tag0511\99view_mg\build\intermediates\transforms\dex\debug\folders\1000\2\netty4.1_d1779bb26c64bb8cdcdf09dd6e945609d3450559\classes.dex" />
+    </item>
+
+</items>

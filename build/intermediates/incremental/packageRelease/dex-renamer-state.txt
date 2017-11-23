@@ -1,0 +1,4 @@
+#Sat May 27 11:20:28 CST 2017
+base.0=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\App\\99viewplayer\\tag\\tag0511\\99view_mg\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

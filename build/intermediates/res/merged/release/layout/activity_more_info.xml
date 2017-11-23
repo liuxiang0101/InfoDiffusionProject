@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/nav_bg"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_back_btn"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/selected_light_style"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/triangle_left_normal" />
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical|center"
+                android:layout_weight="0.43"
+                android:gravity="center"
+                android:text="更多信息"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/textVersion"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selected_light_style"
+                android:gravity="center"
+                android:text="···"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="  注  册  码 ："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/RegistCode"
+                android:layout_width="195dp"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="4.0"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:text="服务端地址："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/serviceIp_yj"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:layout_weight="4.0"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:inputType="text"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:text="播放器名称："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:layout_weight="4.0"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:text="         GJNO ："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/GJNOET"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:layout_weight="4.0"
+                android:background="#FFFFFF"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:longClickable="false" />
+
+        </LinearLayout>
+        <!--版本号-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:text="      版本号 ："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_version"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:layout_weight="4.0"
+                android:background="#FFFFFF"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:longClickable="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/setting_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/button_style"
+                android:gravity="center_vertical|center"
+                android:text="设置"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/setting_clear_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/button_style"
+                android:gravity="center_vertical|center"
+                android:text="清空节目单"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/OpenDebugText"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/button_style"
+            android:gravity="center_vertical|center"
+            android:text="打开调试框"
+            android:textColor="#FFFFFF">
+
+            <requestFocus />
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/comment_input"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:text="服务端端口："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/servicePort_yj"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:layout_weight="0.46"
+                android:background="#FFFFFF"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:inputType="text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+﻿<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zr.webview"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="15"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    
+    <application
+        android:icon="@drawable/ic_launcher_new"
+        android:label="@string/app_name"
+        android:theme="@style/ContentOverlay" android:name=".CrashApplication">
+        <activity
+	    android:launchMode="singleTop"
+            android:name="com.zr.webview.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:name=".SelfInfoActivity" android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".MoreInfoActivity" android:screenOrientation="landscape"></activity>
+        <service android:name=".debug.DebugOverlayService"/>
+	<service android:name=".debug.Service99view">  
+            <intent-filter>  
+                <action android:name="com.zr.webview.debug.Service99view"/>  
+            </intent-filter>          
+	</service> 
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter> 
+                <action android:name="com.ryantang.service.PollingService" /> 
+        	</intent-filter> 
+        </receiver>
+        <receiver android:enabled="true" android:name=".BootUpReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+						<intent-filter>
+    						<action android:name="android.intent.action.BOOT_COMPLETED" />
+    						<category android:name="android.intent.category.DEFAULT" />
+						</intent-filter>
+ 				</receiver>
+        <receiver android:name=".HeartReceiver">
+        </receiver>
+    </application>
+
+</manifest>

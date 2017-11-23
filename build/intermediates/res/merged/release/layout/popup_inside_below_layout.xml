@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/grgray"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selected_light_style"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingTop="8dp"
+        android:text="帮助"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selected_light_style"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:text="更多"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
